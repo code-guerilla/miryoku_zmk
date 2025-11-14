@@ -1,6 +1,6 @@
-#include "../miryoku/custom_config.h"
-#include "../miryoku/miryoku.h"
+// Copyright 2024 Manna Harbour
+// https://github.com/manna-harbour/miryoku
 
-MIRYOKU_LAYER_LIST
- 
-MIRYOKU_MAPPING_ANYWHY_FLAKE
+#include "../miryoku/custom_config.h"
+#include "../miryoku/mapping/46/anywhy_flake.h"
+#include "../miryoku/miryoku.dtsi"
