@@ -1,0 +1,6 @@
+#include "../miryoku/custom_config.h"
+#include "../miryoku/miryoku.h"
+
+MIRYOKU_LAYER_LIST
+ 
+MIRYOKU_MAPPING_ANYWHY_FLAKE

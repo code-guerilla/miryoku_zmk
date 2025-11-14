@@ -1,3 +1,0 @@
-#include "../miryoku/custom_config.h"
-#include "../miryoku/mapping/58/flake.h"
-#include "../miryoku/miryoku.dtsi"
