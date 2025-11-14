@@ -7,4 +7,8 @@ jobs:
       shield: '["anywhy_flake_left","anywhy_flake_right"]'
       kconfig: '["CONFIG_ZMK_SLEEP=y CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y CONFIG_ZMK_PM_SOFT_OFF=y CONFIG_ZMK_POINTING=y"]'
       custom_config: '["#define MIRYOKU_KEYBOARD_ANYWHY_FLAKE"]'
+      modules: |
+            - name: anywhy-io
+              url: https://github.com/anywhy-io/flake-zmk-module
+              ref: 796f7a689e8d9a53fec0ad0f3cd24db37136eca9
       
