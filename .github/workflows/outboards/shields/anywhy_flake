@@ -1,5 +1,5 @@
-# Outboard for Anywhy Flake
-outboard_repository="https://github.com/anywhy-io/flake-zmk-module/tree/796f7a689e8d9a53fec0ad0f3cd24db37136eca9"
-outboard_ref="main"
-outboard_from="boards/shields/anywhy_flake"
-outboard_to="boards/shields/anywhy_flake"
+outboard_modules="
+- name: anywhy-io
+  url: https://github.com/anywhy-io/flake-zmk-module
+  ref: 796f7a689e8d9a53fec0ad0f3cd24db37136eca9
+"
