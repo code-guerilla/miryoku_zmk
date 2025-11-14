@@ -1,6 +1,10 @@
+// Copyright 2024 Manna Harbour
+// https://github.com/manna-harbour/miryoku
 // miryoku/mapping/46/anywhy_flake.h
 
 #if !defined(MIRYOKU_LAYOUTMAPPING_ANYWHY_FLAKE)
+
+#define XXX &none
 
 #define MIRYOKU_LAYOUTMAPPING_ANYWHY_FLAKE( \
      K00, K01, K02, K03, K04,                K05, K06, K07, K08, K09, \
@@ -14,3 +18,5 @@ XXX  K20  K21  K22  K23  K24                K25  K26  K27  K28  K29  XXX \
      XXX  XXX  K32  K33  K34                K35  K36  K37  XXX  XXX
 
 #endif
+
+#define MIRYOKU_MAPPING MIRYOKU_LAYOUTMAPPING_ANYWHY_FLAKE
