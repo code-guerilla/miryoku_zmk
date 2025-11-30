@@ -1,0 +1,23 @@
+// Copyright 2024 Manna Harbour
+// https://github.com/manna-harbour/miryoku
+// Custom macros for anywhy_flake keyboard
+
+/ {
+  macros {
+    u_select_all_copy: u_select_all_copy {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      wait-ms = <30>;
+      tap-ms = <40>;
+      bindings
+        = <&macro_press &kp LCTRL>
+        , <&macro_tap &kp A>
+        , <&macro_release &kp LCTRL>
+        , <&macro_wait_time 50>
+        , <&macro_press &kp LCTRL>
+        , <&macro_tap &kp C>
+        , <&macro_release &kp LCTRL>
+        ;
+    };
+  };
+};

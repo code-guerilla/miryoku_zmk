@@ -4,3 +4,4 @@
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/46/anywhy_flake.h"
 #include "../miryoku/miryoku.dtsi"
+#include "anywhy_flake.dtsi"
