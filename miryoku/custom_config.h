@@ -16,3 +16,4 @@
 
 // You can also override keys if needed
 // #define MIRYOKU_ALPHAS_QWERTY
+#define MIRYOKU_CLIPBOARD_WIN
