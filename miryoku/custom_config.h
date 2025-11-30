@@ -9,9 +9,7 @@
             #binding-cells = <0>;
             wait-ms = <40>;
             tap-ms = <40>;
-            bindings
-                = <&kp LC(A)>
-                , <&kp LC(C)>;
+            bindings = <&kp LC(A) &kp LC(C)>;
         };
     };
 };
