@@ -8,5 +8,6 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["anywhy_flake"]'
+      board: '["nice_nano_v2"]'
+      shield: '["anywhy_flake_left","anywhy_flake_right"]'
       custom_config: '["#define MIRYOKU_KEYBOARD_ANYWHY_FLAKE"]'
