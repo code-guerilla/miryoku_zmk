@@ -1,0 +1,12 @@
+# Copyright 2024 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build anywhy_flake'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["anywhy_flake"]'
+      custom_config: '["#define MIRYOKU_KEYBOARD_ANYWHY_FLAKE"]'
