@@ -1,8 +1,0 @@
-jobs:
-  on: workflow_dispatch
-    build:
-      uses: manna-harbour/miryoku_zmk/.github/workflows/main.yml@master
-      with:
-        keyboard: '["anywhy_flake"]'
-        shield: '["anywhy_flake_left","anywhy_flake_right"]'
-        custom_config: '["#define MIRYOKU_KEYBOARD_ANYWHY_FLAKE"]'
