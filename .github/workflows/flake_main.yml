@@ -1,9 +1,12 @@
+name: Build Anywhy Flake (nice!nano v2)
+
 on: [push, pull_request, workflow_dispatch]
+
 jobs:
   build:
-    uses: manna-harbour/miryoku_zmk/.github/workflows/main.yml@master
+    uses: code-guerilla/miryoku_zmk/.github/workflows/main.yml@master
     with:
       board: '["nice_nano_v2"]'
       shield: '["anywhy_flake_left","anywhy_flake_right"]'
-      custom_config: '["#define MIRYOKU_KEYBOARD_ANYWHY_FLAKE #define MIRYOKU_CLIPBOARD_WIN #define MIRYOKU_KLUDGE_TAPDELAY"]'
-      kconfig: '["CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y CONFIG_ZMK_POINTING=y"]'
+      custom_config: '["#define MIRYOKU_KEYBOARD_ANYWHY_FLAKE\n#define MIRYOKU_CLIPBOARD_WIN\n#define MIRYOKU_KLUDGE_TAPDELAY"]'
+      kconfig: '["CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y\nCONFIG_ZMK_POINTING=y"]'
