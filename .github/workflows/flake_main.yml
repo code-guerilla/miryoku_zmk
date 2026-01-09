@@ -1,4 +1,4 @@
-name: Build Anywhy Flake (nice!nano v2)
+name: Build Anywhy Flake (nice!nano)
 
 on: [push, pull_request, workflow_dispatch]
 jobs:
