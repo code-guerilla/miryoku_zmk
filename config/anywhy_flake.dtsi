@@ -4,7 +4,7 @@
 
 / {
   macros {
-    u_select_all_copy: u_select_all_copy {
+    u_CA: u_CA {
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
       wait-ms = <30>;
