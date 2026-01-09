@@ -1,0 +1,11 @@
+name: Build Anywhy Flake (nice!nano)
+
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  build:
+    uses: code-guerilla/miryoku_zmk/.github/workflows/main.yml@master
+    with:
+      board: '["xiao_ble"]'
+      shield: '["totem_left","totem_right","settings_reset"]'
+      custom_config: '["#define MIRYOKU_CLIPBOARD_WIN\n#define MIRYOKU_KLUDGE_TAPDELAY"]'
+      kconfig: '["CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y\nCONFIG_ZMK_POINTING=y"]'
