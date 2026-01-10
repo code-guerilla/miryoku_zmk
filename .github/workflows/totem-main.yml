@@ -1,4 +1,4 @@
-name: Build Anywhy Flake (nice!nano)
+name: Build totem
 
 on: [push, pull_request, workflow_dispatch]
 jobs:
