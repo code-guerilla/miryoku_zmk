@@ -7,5 +7,5 @@ jobs:
     with:
       board: '["xiao_ble"]'
       shield: '["totem_left","totem_right","settings_reset"]'
-      custom_config: '["#define MIRYOKU_CLIPBOARD_WIN\n#define MIRYOKU_KLUDGE_TAPDELAY"]'
+      custom_config: '["#define MIRYOKU_CLIPBOARD_WIN"]'
       kconfig: '["CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y\nCONFIG_ZMK_POINTING=y"]'
