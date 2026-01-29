@@ -16,7 +16,7 @@ XXX  XXX  XXX  XXX  XXX  XXX                 XXX  XXX  XXX  XXX  XXX  XXX \
 &gresc  K00  K01  K02  K03  K04              K05  K06  K07  K08  K09  XXX \
 &kp TAB K10  K11  K12  K13  K14              K15  K16  K17  K18  K19  XXX \
 &u_CA   K20  K21  K22  K23  K24              K25  K26  K27  K28  K29  XXX \
-&mt RALT 0 K32  XXX  K33  K34           K35  K36  K37  &mt RALT 0  &mt RALT 0
+&mt RALT &none K32  XXX  K33  K34           K35  K36  K37  &mt RALT 0  &mt RALT &none
         
 #endif
 
